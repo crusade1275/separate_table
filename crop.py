@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #---載入欲裁切圖檔
-img = cv2.imread("input_19.png")
+img = cv2.imread("input_35.jpeg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #將圖片轉成RGB
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) #將圖片轉成灰階
 
